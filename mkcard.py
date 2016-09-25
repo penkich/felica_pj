@@ -55,17 +55,14 @@ while(True):
     if true_chk is 'y':
         break
 
-#cursor.execute('insert into kaiin (id,sei,mei,mail,penname) values (%s,%s,%s,%s,%s)',(new_id,sei,mei,mail,penname))
-#connect.commit()
-##cursor.close()
+cursor.execute('insert into kaiin (id,sei,mei,mail,penname) values (%s,%s,%s,%s,%s)',(new_id,sei,mei,mail,penname))
+connect.commit()
 
-##cursor = connect.cursor()
-
-cursor.execute('select * from kaiin')
-rows = cursor.fetchall()
-for row in rows:
-    print(row)
-
+#cursor.execute('select * from kaiin')
+#rows = cursor.fetchall()
+#for row in rows:
+#    print(row)
+#
 cursor.close()
 connect.close()
 
