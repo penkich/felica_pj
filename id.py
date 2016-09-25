@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # IDを表示させるだけのテスト
+# nfcpy を下記からインストールします。
+# https://github.com/nfcpy/nfcpy
+# 
 
 import nfc
 import re
