@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
- 
+# 会員カードを作成するテスト（CUI）
+# by penkich 2016-08-30
+# データベースは、mysql（同一マシン）を使用
+# 
 import nfc
 import re
 import mysql.connector
