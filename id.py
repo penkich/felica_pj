@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # IDを表示させるだけのテスト by penkich 2016-08-28
-# nfcpy を下記を参考にインストールする（root権限で実行する必要あるが、piユーザでもできるようにしておく）。
+# nfcpy を下記を参考にインストールする（root権限で実行する必要あるが、piユーザでもできるようにしておく（その方法も下記に記載あり））。
 # https://nfcpy.readthedocs.io/en/latest/
 # 
 
